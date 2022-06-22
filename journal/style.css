@@ -1,0 +1,61 @@
+body{
+    background-color: #289;
+    height:fit-content;
+}
+.container{
+    margin: 0 auto;
+    padding: 1em;
+}
+h1{
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top:0px;
+    width:max-content;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 46px;
+    font-family: 'Tillana', cursive;
+    text-decoration: underline;
+}
+p{
+    justify-content: left;
+    width: 25%;
+    margin: auto;
+    padding:0.4em;
+    font-size: 16px;
+    font-family:monospace;
+    font-weight: bold;
+}
+p:hover{
+    background-color: #999;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+ /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+button{
+    position: fixed;
+    bottom: 4px;
+    right: 8px;
+    padding: 0.5em;
+    border-radius: 12.25%;
+    font-weight: bold;
+    color:#111;
+}
+button:hover{
+    background-color: #288;
+}
